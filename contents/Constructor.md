@@ -122,6 +122,6 @@ MemberConstruct(String name, int age, int grade) { System.out.println("생성자
 ~~규칙을 위반해 컴파일 오류가 발생~~
 
 
-
+**생성자는 객체 생성 직후 객체를 초기화 하기 위한 특별한 메서드로 생각할 수 있다.**
 
 
