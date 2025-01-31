@@ -92,6 +92,13 @@ public String toString() {
 '}';}
 ~~~
 
+### println()과 toString()
+
+toString()의 결과를 출력한 코드와 object를 println()한 코드의 결과가 완전히 같다.
+
+`System.out.println()`메서드는 사실 내부에서 `toString()`을 호출한다.
+
+따라서 `println()` 을 사용할 때, `toString()` 을 직접 호출할 필요 없이 객체를 바로 전달하면 객체의 정보를 출력 할 수 있다.
 
 ### Object와 OCP
 
